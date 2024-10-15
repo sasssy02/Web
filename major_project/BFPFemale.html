@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BFP Cal</title>
+    <link rel="stylesheet" href="bfp.css">
+</head>
+<body>
+    <a href="#" class="back-link" onclick="gohome()">Home</a>
+    <input type="radio" name="photos" id="check1" >
+    <input type="radio" name="photos" id="check2"> 
+
+    <div class="container">
+        <h1>BFP Calculator</h1>
+        <div class="top-content">
+            <h3>BFP Calculator</h3>
+            <label for="check1" onclick="male();">Male</label>
+            <label for="check2" onclick="female()">Female</label>
+            <label for="check1" onclick="bfp();">Analysis</label>
+        </div>
+        <div class="photo-gallery">
+            <div class="pic places" onclick="showPercentage(12)">
+                <img src="images/12.jpg">
+                <div class="tooltip">12%</div>
+            </div>
+            <div class="pic places" onclick="showPercentage(15)">
+                <img src="images/15.jpg">
+                <div class="tooltip">15%</div>
+            </div>
+            <div class="pic places" onclick="showPercentage(20)">
+              <img src="images/20.jpg">
+              <div class="tooltip">20%</div>
+          </div>
+          <div class="pic places" onclick="showPercentage(25)">
+            <img src="images/25.jpg">
+            <div class="tooltip">25%</div>
+        </div>
+        <div class="pic places" onclick="showPercentage(30)">
+          <img src="images/30.jpg">
+          <div class="tooltip">30%</div>
+      </div>
+      <div class="pic places" onclick="showPercentage(35)">
+        <img src="images/35.jpg">
+        <div class="tooltip">35%</div>
+      </div>
+       <div class="pic places" onclick="showPercentage(40)">
+        <img src="images/40.jpg">
+        <div class="tooltip">40%</div>
+      </div>
+      <div class="pic places" onclick="showPercentage(45)">
+        <img src="images/45.jpg">
+        <div class="tooltip">45%</div>
+    </div>
+        </div>
+    </div>  
+    <script>
+        function male() {
+            window.location = "BFPmale.html";
+        }
+        function female() {
+            window.location = "BFPfemale.html";
+        }
+        function bfp() {
+            window.location = "bfp.html";
+        }
+        function showPercentage(percentage) {
+            alert(percentage + '%');
+        }
+        function gohome() 
+       {
+        window.location = "home.html";
+       }
+    </script>
+</body>
+</html>

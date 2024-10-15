@@ -1,0 +1,85 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  background-color: #3498db;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.intro, .levels {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.level {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.male-chart {
+  background-color: #ee971e; /* Blue color for male */
+}
+
+.female-chart {
+  background-color: #5dacb5; /* Red color for female */
+}
+
+.bar {
+  width: 100px;
+  height: 20px;
+  margin-top: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: var(--percentage, 0);
+  height: 100%;
+  background-color: #fff; /* Change to the background color you prefer */
+}
+
+.level-info {
+  background-color: #ecf0f1;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+.back-link {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  color: #af594c;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  padding: 8px 12px; 
+  border-radius: 5px;
+}
+.back-link:hover {
+  background-color: #e0f7fa; 
+    color: #004d40;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Calorie Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1>Food Calorie Calculator</h1>
+        <div class="categories">
+            <div class="category">
+                <h2>Fruits</h2>
+                <ul id="fruits">
+                    <li onclick="showCalories(this)">Mango</li>
+                    <li onclick="showCalories(this)">Banana</li>
+                    <li onclick="showCalories(this)">Apple</li>
+                    <!-- Add more fruits here -->
+                </ul>
+            </div>
+            <div class="category">
+                <h2>Vegetables</h2>
+                <ul id="vegetables">
+                    <li onclick="showCalories(this)">Spinach</li>
+                    <li onclick="showCalories(this)">Carrot</li>
+                    <li onclick="showCalories(this)">Broccoli</li>
+                    <!-- Add more vegetables here -->
+                </ul>
+            </div>
+            <!-- Add more categories as needed -->
+        </div>
+        <div id="result"></div>
+    </div>
+    <style>
+      body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.calculator {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.category {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.category h2 {
+    margin-bottom: 10px;
+}
+
+.category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.category li {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.category li:hover {
+    background-color: #ccc;
+}
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+    </style>
+    <script>
+      function showCalories(item) {
+    var food = item.textContent;
+
+    // Calories data can be stored in an object for each category
+    var caloriesData = {
+        "Mango": 60,
+        "Banana": 105,
+        "Apple": 95,
+        "Spinach": 7,
+        "Carrot": 25,
+        "Broccoli": 55
+        // Add more items with their calorie counts
+    };
+
+    var calories = caloriesData[food];
+
+    if (calories !== undefined) {
+        var result = document.getElementById("result");
+        result.innerHTML = "";
+
+        var animation = setInterval(frame, 10);
+        var width = 1;
+
+        function frame() {
+            if (width >= calories) {
+                clearInterval(animation);
+            } else {
+                width++;
+                result.style.width = width + 'px';
+                result.innerHTML = food + ': ' + width + ' Calories';
+            }
+        }
+    }
+}
+    </script>
+</body>
+</html>
+
+
+

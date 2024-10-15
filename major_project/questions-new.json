@@ -1,0 +1,127 @@
+[
+  {
+    "question": "what is the best food for pre workout",
+    "choice1": "chicken",
+    "choice2": "eggs",
+    "choice3": "carrot",
+    "choice4": "coffee",
+    "answer": 4
+  },
+  {
+    "question":
+      "which the cheapest protien",
+    "choice1": "banana",
+    "choice2": "eggs",
+    "choice3": "soya",
+    "choice4": "chicken",
+    "answer": 2
+  },
+  {
+    "question": "workouting for which muscle improves testostrone",
+    "choice1": "back muscles",
+    "choice2": "abs",
+    "choice3": "legs",
+    "choice4": "shoulders",
+    "answer": 3
+  },
+  {
+    "question":
+      "which fruit contains highest caloires",
+    "choice1": "dates",
+    "choice2": "apple",
+    "choice3": "watermelon",
+    "choice4": "jackfruit",
+    "answer": 1
+  },
+  {
+    "question":
+      "what is the best source for complex carbs",
+    "choice1": "butter",
+    "choice2": "sweet potatoes",
+    "choice3": "soya",
+    "choice4": "chicken",
+    "answer": 2
+  },
+  {
+    "question":
+      "Best source for simple carbs",
+    "choice1": "oil",
+    "choice2": "mutton",
+    "choice3": "apple",
+    "choice4": "sugar",
+    "answer": 4
+  },
+  {
+    "question":
+      "which of the following is a power workout",
+    "choice1": "deadlift",
+    "choice2": "bicep curls",
+    "choice3": "incline dumbble press",
+    "choice4": "standing shoulder rises",
+    "answer": 1
+  },
+  {
+    "question":
+      "How can one stay motivated to exercise regularly?",
+    "choice1": "vaierty",
+    "choice2": "insecurity",
+    "choice3": "influencers",
+    "choice4": "girls",
+    "answer": 1
+  },
+  {
+    "question":
+      "What are some beginner-friendly exercises for someone just starting their fitness journey?",
+    "choice1": "cycling",
+    "choice2": "walking",
+    "choice3": "hicking",
+    "choice4": "planks",
+    "answer": 2
+  },
+  {
+    "question":
+      "How can one improve their flexibility?",
+    "choice1": "cardio",
+    "choice2": "strength training",
+    "choice3": "stretching",
+    "choice4": "all the above",
+    "answer": 3
+  },
+  {
+    "question":
+      "Which nutrient is essential for muscle repair and growth after a workout?",
+    "choice1": "fiber",
+    "choice2": "fat",
+    "choice3": "carbs",
+    "choice4": "protien",
+    "answer": 4
+  },
+  {
+    "question":
+      "What is the recommended duration of a typical cardio workout session?",
+    "choice1": "20mins",
+    "choice2": "30mins",
+    "choice3": "40mins",
+    "choice4": "60mins",
+    "answer": 2
+  },
+  {
+    "question":
+      "Which exercise involves lying on your back and lifting your legs upward while keeping them straight?",
+    "choice1": "leg raises",
+    "choice2": "squads",
+    "choice3": "dynamic lungs",
+    "choice4": "seated leg raises",
+    "answer": 1
+  },
+  {
+    "question":
+      "What is the term for the phenomenon where muscles become larger in size due to consistent strength training?",
+    "choice1": "endurence training",
+    "choice2": "hypertrophy",
+    "choice3": "strength training",
+    "choice4": "mucatrophy",
+    "answer": 2
+  }
+
+]

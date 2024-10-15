@@ -1,0 +1,92 @@
+[
+  {
+    "question": "which is the best workout for back",
+    "choice1": "dead lift",
+    "choice2": "t bar rowing",
+    "choice3": "pull ups",
+    "choice4": "crunches",
+    "answer": 1
+  },
+  {
+    "question": "which is the largest muscle in our body",
+    "choice1": "biceps",
+    "choice2": "back",
+    "choice3": "leg",
+    "choice4": "abs",
+    "answer": 3
+  },
+  {
+    "question": "who was called as the king of body building",
+    "choice1": "phil health",
+    "choice2": "dexter jackson",
+    "choice3": "kai greene",
+    "choice4": "ronnie coleman",
+    "answer": 4
+  },
+  {
+    "question": "whey protien is made from",
+    "choice1": "chicken",
+    "choice2": "milk",
+    "choice3": "beef",
+    "choice4": "fish",
+    "answer": 2
+  },
+  {
+    "question": "gut health is maintained by intake of",
+    "choice1": "parotta",
+    "choice2": "chilli sauce",
+    "choice3": "spinach",
+    "choice4": "shavarma",
+    "answer": 3
+  },
+  {
+    "question": "how may muscles in triceps",
+    "choice1": "2",
+    "choice2": "3",
+    "choice3": "5",
+    "choice4": "1",
+    "answer": 2
+  },
+  {
+    "question": "which is most under rated muscle",
+    "choice1": "fore arms",
+    "choice2": "calves",
+    "choice3": "abs",
+    "choice4": "hamstring",
+    "answer": 4
+  },
+  {
+    "question": "'Feel the pain' was said by",
+    "choice1": "davi gogines",
+    "choice2": "arnold",
+    "choice3": "jay cutler",
+    "choice4": "all the above",
+    "answer": 4
+  },
+  {
+    "question": "how many hour an average person needs to sleep",
+    "choice1": "4",
+    "choice2": "6",
+    "choice3": "8",
+    "choice4": "10",
+    "answer": 2
+  },
+  {
+    "question": "king of all muscles",
+    "choice1": "back",
+    "choice2": "chest",
+    "choice3": "leg",
+    "choice4": "abs",
+    "answer": 3
+  },
+  {
+    "question": "which workout improves the testostrone",
+    "choice1": "quads",
+    "choice2": "lungs",
+    "choice3": "hanging leg rises",
+    "choice4": "both a & b",
+    "answer": 3
+  }
+
+
+]
